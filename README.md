@@ -1,17 +1,6 @@
-# RAG-chatbot-
+# RAG-chatbot-using-Graphs
 Developed a RAG chatbot for interactive Q&amp;A on research papers, improving comprehension and assistance.
-
-Below is a **complete, clean, production-quality `README.md`** you can directly copy into your repo.
-It explains **both ways of using your project**:
-
-1. **CLI / local execution using `test_graph.py`** (no Streamlit)
-2. **Interactive UI using `app.py` (Streamlit)**
-3. **Optional graph visualization using `visualize_graph.py`**
-
-It is written so **any developer can clone and run it without asking you questions**.
-
 ---
-
 # 📚 Graph RAG (Graph-based Retrieval Augmented Generation)
 
 This repository implements a **Graph-based Retrieval Augmented Generation (Graph RAG)** system with a **hybrid Graph-first + Vector (FAISS) fallback strategy**.
@@ -108,8 +97,6 @@ Create a `.env` file in the root directory:
 HF_API_TOKEN=your_huggingface_api_token_here
 ```
 
-> ⚠️ Do **NOT** commit `.env` to GitHub
-> Use `.env.example` as a reference
 
 ---
 
@@ -278,11 +265,3 @@ Inspired by modern research on:
 
 ---
 
-If you want, next I can:
-
-* Review this README for **open-source best practices**
-* Add **example screenshots**
-* Prepare a **Streamlit Cloud deployment guide**
-* Help you write a **blog or LinkedIn post** explaining this project
-
-Just tell me 👍
